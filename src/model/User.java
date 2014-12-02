@@ -1,7 +1,14 @@
+/*
+ * Created by Mehmet ONLER on 02.12.2014
+ */
 package model;
 import java.util.ArrayList;
 
-public class User {
+public class User implements java.io.Serializable{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 771315484738324912L;
 	private static int idGenerater = 0;
 	private int userID;
 	private UserType userType;
